@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-> --- It always
+> --- Anything is impossible until it is done.
 
 <p>
   <img src="https://github.com/yinji921/Ji-Yin/blob/main/files/Ji%20Yin%20phd%20photo1.jpg?raw=true" alt="Photo" style="width: 200px;" hspace="5" vspace="5" align="left"/> 
