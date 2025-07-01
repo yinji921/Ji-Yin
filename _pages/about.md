@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Songyuan Zhang"
-excerpt: "Songyuan Zhang"
+title: "Ji Yin"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
