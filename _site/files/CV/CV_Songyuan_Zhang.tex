@@ -1,0 +1,162 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=1in,top=1.3in,right=1in,bottom=1.3in]{geometry} % Document margins
+\usepackage{hyperref}
+\usepackage{etaremune}
+\usepackage[inline]{enumitem} 
+\usepackage{graphicx}
+\usepackage{tabularx}
+\pagestyle{plain}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Songyuan Zhang}
+\lhead{Curriculum Vitae}
+\rfoot{Page \thepage}
+
+\hypersetup{
+% 	bookmarks=true,         % show bookmarks bar?
+	unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+	pdftoolbar=true,        % show Acrobat’s toolbar?
+	pdfmenubar=true,        % show Acrobat’s menu?
+	pdffitwindow=false,     % window fit to page when opened
+	pdfstartview={FitH},    % fits the width of the page to the window
+	pdftitle={Resume of Songyuan Zhang},    % title
+	pdfauthor={Songyuan Zhang},     % author
+	pdfsubject={Resume},   % subject of the document
+	pdfcreator={Songyuan Zhang},   % creator of the document
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=blue,          % color of internal links (change box color with linkbordercolor)
+	citecolor=green,        % color of links to bibliography
+	filecolor=magenta,      % color of file links
+	urlcolor=blue           % color of external links
+}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand{\paperItem}[4]{#1.~``#2."~\textit{#3},~#4.}%author title venue year
+\newcommand{\talktitle}[1]{{``#1",}} %talk title
+\newcommand{\talkplace}[3]{{\textit{#1},~#2,~#3.}} % conference, place, time
+\newcommand{\confItem}[3]{#1~#2~(\textit{#3})} %abrrev, full name, year
+\newcommand{\patentItem}[3]{``#1",~#2,~#3.} % title, number, date
+
+\newcommand{\me}{\underline{Songyuan Zhang}}
+\newcommand{\meshort}{\textbf{S. Zhang}}
+\newcommand{\person}[2]{#1}
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+    
+\makeatletter
+% This command ignores the optional argument for itemize and enumerate lists
+\newcommand{\inlineitem}[1][]{%
+	\ifnum\enit@type=\tw@
+	{\descriptionlabel{#1}}
+	\hspace{\labelsep}%
+	\else
+	\ifnum\enit@type=\z@
+	\refstepcounter{\@listctr}\fi
+	\quad\@itemlabel\hspace{\labelsep}%
+	\fi}
+\makeatother
+
+\name{Songyuan Zhang}
+\address{{\bf LAB:} REALM Lab, MIT Building 31, 70 Vassar St, Cambridge, MA 02139, U.S.}
+\address{{\bf EMAIL:} \href{mailto:szhang21@mit.edu}{\nolinkurl{szhang21@mit.edu}}}
+\address{{\bf HOMEPAGE:} \href{http://syzhang092218-source.github.io}{http://syzhang092218-source.github.io}}
+
+\begin{document}
+	\begin{rSection}{RESEARCH INTERESTS}
+		Safe Autonomous Systems, Machine Learning, Reinforcement Learning, Robotics, Control Theory
+	\end{rSection}
+
+	\begin{rSection}{Education} 		
+		% \small
+		\begin{rSubsection2}{Massachusetts Institute of Technology}{Feb. 2024 - Now}{Ph.D. Student at Department of Aeronautics and Astronautics}{Advisor: Prof. Chuchu Fan}
+		\end{rSubsection2}
+
+		\begin{rSubsection2}{Massachusetts Institute of Technology}{Aug. 2021 - Feb. 2024}{Master of Science in Aeronautics and Astronautics}{Advisor: Prof. Chuchu Fan}
+		\end{rSubsection2} 
+	
+		\begin{rSubsection2}{Tsinghua University}{Sep. 2017 - Jul. 2021}{B.E. in Tsien Excellence in Engineering Program (honored degree)}{\\\rightline{Advisor: Prof. Yanan Sui, Prof. Hao Wu, Prof. Gangtie Zheng}} 
+		\end{rSubsection2}
+		\vspace{-10pt}
+        
+        \begin{rSubsection2}{Stanford University}{Jun. 2020 - July. 2021}{Remote Visiting Scholar in Computer Science}{Advisor: Prof. Dorsa Sadigh}
+		\end{rSubsection2}
+
+		\begin{rSubsection2}{University of California, Berkeley}{July. 2019 - Sept. 2019}{Visiting Scholar in Mechanical Engineering}{Advisor: Prof. Masayoshi Tomizuka}
+		\end{rSubsection2}
+	\end{rSection}
+
+	\begin{rSection}{Publications}
+		\item[] \textbf{\underline{JOURNAL}}
+		\vspace{5pt}
+		{
+			\item {\bf [T-RO'25]}
+			\paperItem{\person{\me*}{\meshort}, \person{Oswin So*}{O. So}, \person{Kunal Garg}{K. Garg}, and \person{Chuchu Fan}{C. Fan}}{GCBF+: A Neural Graph Control Barrier Function Framework for Distributed Safe Multi-Agent Control}{IEEE Transactions on Robotics}{2025}{\href{https://mit-realm.github.io/gcbfplus/}{[Website]}}
+			\item {\bf [ARC'24]}
+			\paperItem{\person{Kunal Garg}{K. Garg}, \person{\me}{\meshort}, \person{Oswin So}{O. So}, \person{Charles Dawson}{C. Dawson}, and \person{Chuchu Fan}{C. Fan}}{Learning Safe Control for Multi-Robot Systems: Methods, Verification, and Open Challenges}{Annual Reviews in Control}{2024}{\href{https://arxiv.org/abs/2311.13714}{[arXiv]}}
+			\item {\bf [SG'23]}
+			\paperItem{\person{Lizhi Wang}{L. Wang}, \person{\me}{\meshort}, \person{Yifan Zhou}{Y. Zhou}, \person{Chuchu Fan}{C. Fan}, \person{Peng Zhang}{P. Zhang}, and \person{Yacov A. Shamash}{YA. Shamash}}{Physics-Informed, Safety and Stability Certified Neural Control for Uncertain Networked Microgrids}{IEEE Transactions on Smart Grid}{2023}{\href{https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10233047}{[PDF]}}
+		}
+		\vspace{5pt}
+		\item[] \textbf{\underline{CONFERENCE}}
+		\vspace{5pt}
+		{	
+			\item {\bf [RSS'25]}
+			\paperItem{\person{\me*}{\meshort}, \person{Oswin So*}{O. So}, \person{Mitchell Black}{M. Black}, \person{Zachary Serlin}{Z. Serlin}, and \person{Chuchu Fan}{C. Fan}}{Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL}{Proceedings of Robotics: Science and Systems (RSS)}{2025}{\href{https://mit-realm.github.io/def-marl/}{[Website]}}
+			\item {\bf [ICLR'25]}
+			\paperItem{\person{\me}{\meshort}, \person{Oswin So}{O. So}, \person{Mitchell Black}{M. Black}, and \person{Chuchu Fan}{C. Fan}}{Discrete GCBF Proximal Policy Optimization for Multi-agent Safe Optimal Control}{International Conference on Learning Representations (ICLR)}{2025}{\href{https://mit-realm.github.io/dgppo/}{[Website]}}
+			\item {\bf [L4DC'24]}
+			\paperItem{\person{\me}{\meshort}, and \person{Chuchu Fan}{C. Fan}}{Learning to stabilize high-dimensional unknown systems using Lyapunov-guided exploration}{6th Annual Learning for Dynamics \& Control Conference (L4DC)}{2024}{\href{https://mit-realm.github.io/lyge-website/}{[Website]}}
+			\item {\bf [DASC'24]}
+			\paperItem{\person{Anahita Imanian}{A. Imanian}, \person{\me}{\meshort}, \person{Austin Whitesell}{A. Whitesell}, \person{Craig Wanke}{C. Wanke}, and \person{Chuchu Fan}{C. Fan}}{A Robust Machine Learning Method for Safe and Efficient UAS Integration }{AIAA DATC / IEEE 43rd Digital Avionics Systems Conference (DASC)}{2024}{\href{https://ieeexplore.ieee.org/abstract/document/10749515}{[PDF]}}
+			\item {\bf [AIAA'24]}
+			\paperItem{\person{Anahita Imanian}{A. Imanian}, \person{\me}{\meshort}, \person{Chuchu Fan}{C. Fan}, \person{Bulent Ayhan}{B. Ayhan}, \person{Austin Whitesell}{A. Whitesell}, \person{Shereef Sayed}{S. Sayed}, and \person{Craig Wanke}{C. Wanke}}{Safe and Scalable Collision Avoidance Model for Small Unmanned Aircraft Systems: An Artificial Intelligence Approach}{AIAA SCITECH 2024 Forum}{2024}\\{\href{https://arc.aiaa.org/doi/abs/10.2514/6.2024-1081}{[PDF]}}
+			\item {\bf [CoRL'23]}
+			\paperItem{\person{\me}{\meshort}, \person{Kunal Garg}{K. Garg}, and \person{Chuchu Fan}{C. Fan}}{Neural Graph Control Barrier Functions Guided Distributed Collision-avoidance Multi-agent Control}{7th Conference on Robot Learning (CoRL)}{2023}{\href{https://mit-realm.github.io/gcbf-website/}{[Website]}}
+			\item {\bf [PESGM'23]}
+			\paperItem{\person{Lizhi Wang}{L. Wang}, \person{\me}{\meshort}, \person{Yifan Zhou}{Y. Zhou}, \person{Chuchu Fan}{C. Fan}, \person{Peng Zhang}{P. Zhang}, and \person{Yacov A. Shamash}{YA. Shamash}}{Learning-Based, Safety and Stability-Certified Microgrid Control}{2023 IEEE Power \& Energy Society General Meeting (PESGM)}{2023}{\href{https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10253396}{[PDF]}}
+			\item {\bf [L4DC'23 (ORAL)]}
+			\paperItem{\person{\me}{\meshort}, \person{Yumeng Xiu}{Y. Xiu}, \person{Guannan Qu}{G. Qu}, and \person{Chuchu Fan}{C. Fan}}{Compositional Neural Certificates for Networked Dynamical Systems}{5th Annual Learning for Dynamics \& Control Conference (L4DC)}{2023}{\href{https://mit-realm.github.io/neuriss-website/}{[Website]}}
+			\item {\bf [NeurIPS'21]}
+			\paperItem{\person{\me*}{\meshort}, \person{Zhangjie Cao*}{Z. Cao}, \person{Dorsa Sadigh}{D. Sadigh}, and \person{Yanan Sui}{Y. Sui}}{Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality}{Conference on Neural Information Processing Systems}{2021}{\href{https://sites.google.com/view/cail/}{[Website]}}
+		}
+	\end{rSection}
+
+	\begin{rSection}{Honors and Awards} {} \itemsep -2pt {}  
+		% \small
+		\item Outstanding Graduate of Tsinghua University \hfill{2021}
+		\item Outstanding Graduate of Beijing \hfill{2021}
+		\item Outstanding Graduate of Scientific Research at TEEP \hfill{2021}
+		\item Outstanding Graduate of Creativity at TEEP \hfill{2021}
+		\item Honor Degree of Tsien Class, Tsinghua University \hfill{2021}
+		\item Tsinghua Scholarship for Technological Innovation \hfill{2020}
+		\item National Scholarship, China \hfill{2019}
+		\item First Prize in Excellent Student Research Training Contest of Tsinghua University \hfill{2019}
+		\item First Prize in "Challenge Cup" Science and Technology Competition of Tsinghua University \hfill{2019}
+	\end{rSection}
+
+	\begin{rSection}{ACADEMIC SERVICES}
+		\item \textbf{Journal Reviewer:} \\IEEE Transactions on Robotics (T-RO), IEEE Transactions on Automatic Control (T-AC), Annual Reviews in Control (ARC), IEEE Open Journal of Control Systems (OJ-CSYS), IEEE Robotics and Automation Letters (RA-L), IEEE Transactions on Cybernetics (T-CYB)
+		\item \textbf{Conference Reviewer:} \\NeurIPS, ICLR, ICML, L4DC, IROS, AAAI, AISTATS, CDC, ACC, NFM, DARS, RV, TACAS
+		\item \textbf{Teaching Assistant} at Tsinghua University: X-idea (2021 Spring)
+	\end{rSection}
+
+	\begin{rSection}{LEADERSHIP \& MEMBERSHIP}
+		\item Chairman of 13th \textsl{Spark} Innovative Talents Training Program at Tsinghua University
+		\item Vice-monitor of Tsien Class 2017
+		\item Member of the Second Team of Middle and Long Distance Running at Tsinghua University
+	\end{rSection}
+
+	\begin{rSection}{SELECTED PRESS COVERAGE}
+		\item MIT engineers help multirobot systems stay in the safety zone, \textit{MIT News}, 2025. \href{https://news.mit.edu/2025/mit-engineers-help-multirobot-systems-stay-safety-zone-0131}{[Website]}
+	\end{rSection}
+
+	\begin{rSection}{HOBBIES}
+		\item Photography, Hiking, Badminton, Running, Skiing, Piano, Drum kit, Taekwondo, Poker Magic
+	\end{rSection}
+	
+\end{document}
