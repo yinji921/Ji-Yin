@@ -1,0 +1,16 @@
+current directory: /mnt/c6a58b02-d246-4607-abaf-933994cceadf/Ji-Yin-Website/Ji-Yin/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20250701-98563-e7krna.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/c6a58b02-d246-4607-abaf-933994cceadf/Ji-Yin-Website/Ji-Yin/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= clean
+
+current directory: /mnt/c6a58b02-d246-4607-abaf-933994cceadf/Ji-Yin-Website/Ji-Yin/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\=
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /mnt/c6a58b02-d246-4607-abaf-933994cceadf/Ji-Yin-Website/Ji-Yin/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20250701-98563-p0mfxj
