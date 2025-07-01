@@ -11,7 +11,7 @@ redirect_from:
 > --- After all this time? Always.
 
 <p>
-  <img src="https://syzhang092218-source.github.io/files/syzhang.jpg?raw=true" alt="Photo" style="width: 200px;" hspace="5" vspace="5" align="left"/> 
+  <img src="https://github.com/yinji921/Ji-Yin/blob/main/files/Ji%20Yin%20phd%20photo1.jpg?raw=true" alt="Photo" style="width: 200px;" hspace="5" vspace="5" align="left"/> 
   I am a Ph.D. student at MIT. I received my Master of Science in Aeronautics and Astronautics at MIT in 2024, and Bachelor of Engineering at Tsien Excellence in Engineering Program (Tsien class, TEEP) at Tsinghua in 2021. The goal of my research is to develop real intelligent assistive robots. My research interests lie at safe multi-agent systems, reinforcement learning, control theories, and robotics.
 </p>
 
