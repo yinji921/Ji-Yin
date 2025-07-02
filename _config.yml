@@ -81,14 +81,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Songyuan Zhang"
-  avatar           : "professional_1224x1633.jpg"
-  bio              : "Ph.D. student at REALM lab, MIT"
+  name             : "Ji Yin"
+  avatar           : "Selfie.jpg"
+  bio              : "Senior robotics engineer at Symbotic, Robotics Ph.D. from Georgia Tech"
   location         : "Cambridge, MA, USA"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=BfAQla4AAAAJ"
-  email            : szhang21@mit.edu
+  googlescholar    : "https://scholar.google.com/citations?user=KLQPAEkAAAAJ&hl=en"
+  email            : jyin81@gatech.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -97,24 +97,24 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "syzhang092218-source"
+  github           : "yinji921"
   google_plus      :
   keybase          :
-  instagram        : "syzhang092218"
+  instagram        : "jimmyy921"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "syzhang092218"
+  linkedin         : "www.linkedin.com/in/ji-y-4a8011132"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@syzhang092218"
+  twitter          : #
   vine             :
   weibo            :
   xing             :
-  youtube          : "UCchgf5HNEywGBLN_rGT4joA"
+  youtube          : "https://www.youtube.com/@Ji-ri2yu"
   wikipedia        :
 
 
