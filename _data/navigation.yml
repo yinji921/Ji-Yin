@@ -12,8 +12,6 @@ main:
   - title: "Professional"
     url: /professional/
     
-  - title: "Awards"
-    url: /awards/
     
   - title: "Contact"
     url: /contact/
