@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Songyuan Zhang (张凇源)"
+title: "Ji Yin"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,6 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-My up-to-date Curriculum Vitae (last update: 04/16/2025): [[pdf]](https://syzhang092218-source.github.io/files/CV/CV_Songyuan_Zhang.pdf)
-
-My Curriculum Vitae when applying for Ph.D. programs: [[pdf]](https://syzhang092218-source.github.io/files/CV_Songyuan_Zhang_PhD.pdf)
+My up-to-date Curriculum Vitae (last update: 07/03/2025): [[pdf]](https://github.com/yinji921/Ji-Yin/blob/main/files/CV_Ji%20Yin.pdf)
