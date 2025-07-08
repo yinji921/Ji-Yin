@@ -16,7 +16,7 @@ redirect_from:
 I received my B.Sc. in Mechanical Engineering from Shanghai Jiao Tong University in 2017. The goal of my research is to develop safe and intelligent robots. My research interests lie at formal methods for safety, reinforcement learning, control theories, and robotics.
 </p>
 
-I was a member of [DCSL](https://dcsl.gatech.edu/) lab of Georgia Tech led by Prof. [Panagiotis Tsiotras](https://www.tsiotras.com/) from 2020 to 2025. 
+I was a member of [DCSL](https://dcsl.gatech.edu/) lab of Georgia Tech led by Prof. [Panagiotis Tsiotras](https://ae.gatech.edu/directory/person/panagiotis-tsiotras) from 2020 to 2025. 
 During the last two years of my PhD study, I visited and stayed at [REALM](http://realm.mit.edu/) lab of MIT led by Prof. [Chuchu Fan](https://chuchu.mit.edu/) from 2023 to 2025. 
 My Ph.D. thesis is titled [Safe and Efficient Variational Inference Model Predictive Control with Application to Aggressive Autonomous Driving](https://hdl.handle.net/1853/77825). I have been working on safe and efficient variational inference model predictive control (VI-MPC) for aggressive autonomous driving, which uses various approaches, including reinforcement learning, formal methods, control and optimization to ensure safety while achieving high performance in complex driving scenarios.
 
