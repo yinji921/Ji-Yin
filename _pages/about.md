@@ -12,7 +12,7 @@ redirect_from:
 
 <p>
   <img src="https://github.com/yinji921/Ji-Yin/blob/main/files/Ji%20Yin%20phd%20photo1.jpg?raw=true" alt="Photo" style="width: 200px;" hspace="5" vspace="5" align="left"/> 
-  I am a senior robotics engineer at Symbotic. I received my Ph.D. in Robotics at Georgia Institute of Technology in 2024, and M.Sc. in Mechanical Engineering from Columbia University in the city of New York in 2020, and M.Sc. in Vehicle Engineering from KTH Royal Institute of Technology in Stockholm in 2018. 
+  I am a senior robotics engineer at Symbotic. I received my Ph.D. in Robotics at Georgia Institute of Technology in 2025, and M.Sc. in Mechanical Engineering from Columbia University in the city of New York in 2020, and M.Sc. in Vehicle Engineering from KTH Royal Institute of Technology in Stockholm in 2018. 
 I received my B.Sc. in Mechanical Engineering from Shanghai Jiao Tong University in 2017. The goal of my research is to develop safe and intelligent robots. My research interests lie at formal methods for safety, reinforcement learning, control theories, and robotics.
 </p>
 
